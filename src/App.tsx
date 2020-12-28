@@ -6,7 +6,9 @@ import {
   Switch,
   useLocation,
 } from "react-router-dom";
+import About from "./components/About";
 import Navigation from "./components/Navigation";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -32,10 +34,10 @@ function Homepage() {
             <h1>First page</h1>
           </Route>
           <Route path="/about" exact>
-            <h1>About me</h1>
+            <About />
           </Route>
           <Route path="/projects" exact>
-            <h1>My projects</h1>
+            <Projects />
           </Route>
           <Route path="/technologies" exact>
             <h1>Technologies</h1>

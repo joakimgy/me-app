@@ -47,7 +47,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ closeMenu }) => {
           <div className="mt-6">
             <nav className="grid gap-y-8">
               <Link
-                to="/"
+                to="/about"
                 className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
               >
                 <MenuIcon />
@@ -57,7 +57,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ closeMenu }) => {
               </Link>
 
               <Link
-                to="/"
+                to="/projects"
                 className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
               >
                 <MenuIcon />
@@ -67,7 +67,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ closeMenu }) => {
               </Link>
 
               <Link
-                to="/"
+                to="/technologies"
                 className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
               >
                 <MenuIcon />

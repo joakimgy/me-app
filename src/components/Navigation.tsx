@@ -10,7 +10,6 @@ const Navigation: React.FC = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     setShowTechnologies(false);
     setShowMobileMenu(false);
   }, [pathname]);

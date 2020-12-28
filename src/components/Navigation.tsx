@@ -18,7 +18,7 @@ const Navigation: React.FC = () => {
     <div className="relative bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+          <div className="flex justify-start lg:w-0 lg:flex-1 x">
             <Link to="/">
               <span className="sr-only">Home</span>
               <img
@@ -27,6 +27,9 @@ const Navigation: React.FC = () => {
                 alt=""
               />
             </Link>
+            <p className="hidden md:flex text-base font-medium text-gray-500 self-center pl-4">
+              Joakim Gyllenskepp
+            </p>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <button

@@ -1,4 +1,3 @@
-import firebase from "firebase";
 import React, { useEffect } from "react";
 import {
   BrowserRouter,
@@ -11,19 +10,6 @@ import About from "./components/About";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import { Slideshow } from "./components/Slideshow";
-
-// TODO: Replace the following with your app's Firebase project configuration
-// For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
-const firebaseConfig = {
-  apiKey: "AIzaSyDsN4Mu3PsFGQ-QCs1C6DyLK-oWB7dGlj0",
-  authDomain: "me-app-e86d3.firebaseapp.com",
-  projectId: "me-app-e86d3",
-  storageBucket: "me-app-e86d3.appspot.com",
-  messagingSenderId: "270674781379",
-  appId: "1:270674781379:web:b67563fe8f6a1cfe402e76",
-  measurementId: "G-QC11N1VKY2",
-};
-firebase.initializeApp(firebaseConfig);
 
 // Initialize Firebase
 
